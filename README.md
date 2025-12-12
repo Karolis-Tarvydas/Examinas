@@ -4,7 +4,6 @@
 - Renginių kūrimas, peržiūra ir trynimas
 - Renginių patvirtinimas (tik administratoriui)
 - Viešas renginių peržiūrėjimas (be prisijungimo)
-- Renginių įvertinimas žvaigždutėmis
 - Kategorijų valdymas
 
 ### Technologijos:
@@ -77,7 +76,6 @@ npx vite --config frontend/vite.config.js
 - `POST /api/events` - Sukurti renginį
 - `DELETE /api/events/:id` - Ištrinti renginį
 - `POST /api/events/:id/approve` - Patvirtinti renginį (admin)
-- `POST /api/events/:id/rate` - Įvertinti renginį
 
 ## Duomenų bazės schema
 
